@@ -1,0 +1,21 @@
+application: rahulspowerballnumbers
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+- url: /bootstrap
+  static_dir: bootstrap  
+- url: /.*
+  script: lottery.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+- name: numpy
+  version: "1.6.1"

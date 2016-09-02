@@ -1,0 +1,27 @@
+.upvote-color{
+	color: #FF9966;
+}
+
+.top-color{
+	color: #315677;
+}
+
+.custom-category {
+  	position: absolute;
+  	padding-right: 15px;
+  	right: 0;
+}
+
+.custom-submit-button{
+	position: absolute;
+	padding-right: 15px;
+	right: 0;	
+}
+
+.custom-submit-button{
+	position: absolute;
+	padding-right: 15px;
+	float: right;
+}
+
+
